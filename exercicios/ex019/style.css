@@ -1,0 +1,32 @@
+@charset "UTF_8";
+body {
+    background-color: rgb(173, 245, 197);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(128, 201, 132);
+    color: white;
+}
+h1 {
+    color: rgb(49, 148, 78);
+    text-align: center;
+}
+h2 {
+    color: rgb(15, 85, 6);
+}
+.basico{
+    color: rgb(17, 68, 17);
+    font-family: 'Times New Roman', Times, serif;
+}
+.intermediario{
+    color: rgb(107, 107, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+.avancado{
+    color: rgb(105, 27, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
