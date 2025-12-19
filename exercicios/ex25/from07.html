@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="" method="post" autocomplete="on">
+        <p>
+            <label for="is">Estado</label>
+            <select name="is" id="is">
+                <optgroup label="Estados">
+                    <option value="" selected>--Escolha--</option>
+                    <option value="AC">Acre
+                    <option value="MG">Minas Grerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="prof"></label>
+            <input type="text" name="prof" id="prof" list="lista">
+            <datalist id="lista">
+                <option value="ADM">Adiministrador</option>
+                <option value="ADS">Analista de Sistemas</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="msg">Mensagem</label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+
+
+
+        <p>
+            <input type="reset" value="limpar">
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+</body>
+</html>
