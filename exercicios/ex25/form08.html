@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="post">
+    <p>
+        <label for="nun1">Numero 1:</label>
+        <input type="number" name="nun1" id="nun1" max="50" min="0" oninput="soma.innerHTML = Number (nun1.value) + Number(nun2.value)">
+    </p>
+    <p>
+        <label for="nun2">Numero 2:</label>
+        <input type="number" name="nun2" id="nun2" max="50" min="0" oninput="soma.innerHTML = Number (nun1.value) + Number(nun2.value)">
+    </p>
+    <p>
+        <label for="soma">Soma:</label>
+        <output name="soma" id="soma"></output>
+       
+    </p>
+        <input type="reset" value="limpar">
+        <input type="submit" value="enviar">
+    </p>
+    </form>
+</body>
+</html>
